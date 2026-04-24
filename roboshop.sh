@@ -1,9 +1,9 @@
 #!/bin/bash
 
-sg_id="sg-0edf74a4c129178e7"
-ami_id="ami-0220d79f3f480ecf5"
-zone_id="Z02669081FB4X7KDSL5OS"
-domain_name="sainu.online"
+SG_ID="sg-0edf74a4c129178e7"
+AMI_ID="ami-0220d79f3f480ecf5"
+ZONE_ID="Z02669081FB4X7KDSL5OS"
+DOMAIN_NAME="sainu.online"
 
 for instance in $@
  do
